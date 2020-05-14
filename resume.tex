@@ -1,0 +1,95 @@
+\documentclass[10pt,letterpaper,roman]{moderncv}
+\usepackage[scale=0.8,margin=0.3in]{geometry}
+\newgeometry{top=0.2in, right=0.4in, bottom=0.2in, left=0.4in}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\newcommand*{\mysection}[1]{%
+  \vspace{2.5ex}
+  \phantomsection{}
+  \addcontentsline{toc}{part}{#1}%
+  \parbox[m]{\textwidth}{\sectionstyle{#1}}\\[1ex]}
+
+\name{Michael}{Chunko}
+\title{}
+\address{Hoboken, NJ, USA}
+\phone[mobile]{732-618-5547}
+\email{chunkomike@gmail.com}
+\social[linkedin]{https://www.linkedin.com/in/michael-chunko/}
+\social[github]{https://github.com/MikeChunko}
+
+\begin{document}
+
+\makecvtitle 
+\vspace{-0.4in}
+\sethintscolumntowidth{\ }
+
+\mysection{Objective}
+Highly driven computer science student seeking an internship for Summer 2020 or a full time job for 2021 
+
+\mysection{Education}
+\textbf{Bachelors of Science in Computer Science, Minor in Mathematics} \hfill Aug 2018 -- May 2021
+\newline Stevens Institute of Technology, \textit{Hoboken, NJ}
+
+\textit{\textbf{GPA} -- 3.95}
+
+\begin{itemize}
+  \item \textbf{TA}: \qquad\qquad\qquad\ \ \  Automata and Computation, Algorithmic Complexity
+  \item \textbf{Relevant courses}: Algorithms, Data Structures, Web Programming, Compiler Design, Systems Programming, Numerical Analysis, Statistics
+\end{itemize}
+
+\mysection{Skills}
+\textbf{Programming}: C, C++, Python, Java, OCaml, MATLAB, GNU Octave, Scheme \\
+\textbf{Web}:\qquad\quad\ \ \ \ \ \space HTML5, CSS\\
+\textbf{Misc. Tech}: \space\space\space UNIX, Git, Linux, Windows, \LaTeX{}, VSCode, MS Excel
+
+\mysection{Experience}
+\textbf{Teaching Assistant, Stevens Institute of Technology} \textit{Hoboken, NJ} \hfill Dec 2019 -- Current
+\begin{itemize}
+	\item Assistant for Automata and Computation, Algorithmic Complexity
+	\item Created new assignments for students to nurture an understanding of the material
+	\item Assisted students in gaining an understanding for the topics taught in class
+\end{itemize}
+
+\hfill
+
+\textbf{\LaTeX{} Typesetter, Stevens Institute of Technology}, \textit{Hoboken, NJ} \hfill Oct 2018 -- Current
+\begin{itemize}
+	\item Create documents written in \LaTeX{} and write .TeX code
+	\item Provide IT assistance
+\end{itemize}
+
+\mysection{Projects}
+\textbf{OAT Compiler} \hfill Jan 2020 -- May 2020
+\begin{itemize}
+	\item Designed a fully fledged compiler, parser, lexer for OAT (a C--like language)
+	\item Capable of lexing and parsing raw OAT code, compiling from OAT to LLVM, compiling from LLVM to X86, and simulating X86
+	\item Optimizes the output between each step
+\end{itemize}
+
+\hfill
+
+\textbf{Neural Network} \hfill Mar 2018 -- June 2018
+\begin{itemize}
+	\item Designed and programmed a neural network capable of identifying the language of a given word with high accuracy
+	\item Developed working knowledge of TensorFlow
+\end{itemize}
+
+\hfill
+
+\textbf{Rogue} \hfill Mar 2019 -- Aug 2019
+\begin{itemize}
+	\item A procedurally--generated game rendered in the console
+	\item Turn--based combat through procedurally-generated levels including multiple enemy types, random item drops, upgrades, and an experience system
+\end{itemize}
+
+\hfill
+
+\textbf{Interactive Website} \hfill Oct 2018 -- Dec 2018
+\begin{itemize}
+	\item Worked with a team to create an interactive website built with HTML5, CSS, and JavaScript
+	\item Managed the team to divide the tasks and finish everything on time with regular scrums
+\end{itemize}
+
+\end{document}
